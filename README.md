@@ -4,7 +4,7 @@
 [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-email-composer.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-email-composer)
 
 Binding to
-[cordova-plugin-activityindicator](https://github.com/Initsogar/cordova-activityindicator)
+[cordova-plugin-email-composer](https://github.com/katzer/cordova-plugin-email-composer)
 
 ## What does cordova-plugin-email-composer do ?
 
