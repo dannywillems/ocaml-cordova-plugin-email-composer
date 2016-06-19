@@ -1,6 +1,25 @@
 (* -------------------------------------------------------------------------- *)
-val add_alias : string -> string -> unit
+val add_alias :
+  string                            ->
+  string                            ->
+  unit
 [@@js.global "cordova.plugins.email.addAlias"]
+(* -------------------------------------------------------------------------- *)
+
+(* -------------------------------------------------------------------------- *)
+val is_available :
+  (bool -> unit)                    ->
+  unit
+[@@js.global "cordova.plugins.email.isAvailable"]
+
+val app_available :
+  string                            ->
+  (* All parameters are boolean ? Documentation says the second, withScheme in
+   * the example, is a boolean
+   *)
+  (bool -> bool -> unit)            ->
+  unit
+[@@js.global "cordova.plugins.email.isAvailable"]
 (* -------------------------------------------------------------------------- *)
 
 (* -------------------------------------------------------------------------- *)
